@@ -91,7 +91,7 @@ div.page-contents>div:nth-of-type(even) {
 }
 
 .vl {
-    border-left: 1px dashed black;
+    border-left: 2px solid #134c7a;
     width: 1px;
   }
 
