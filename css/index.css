@@ -90,6 +90,11 @@ div.page-contents>div:nth-of-type(even) {
     font-weight: bold;
 }
 
+.skill-text {
+    color: red;
+    font-weight: bold;
+}
+
 .vl {
     border-left: 2px solid #134c7a;
     width: 1px;
