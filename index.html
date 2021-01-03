@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather%7CRoboto+Mono">
+	<link rel="stylesheet" type="text/css" href="/css/global.css">
+	<link rel="stylesheet" type="text/css" href="/css/index.css">
+	<meta charset="UTF-8" />
+	<title>Bryce Wong</title>
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-md fixed-top">
+		<div class="container">
+			<a class="navbar-brand" href="./">Bryce Wong</a>
+			<button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse"
+				data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#home">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#projects">Projects</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#work">Work</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#teaching">Teaching</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">Contact</a>
+					</li>
+					<!-- ** For dropdowns **
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Teaching
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+							<a class="dropdown-item" href="#">Action</a>
+							<a class="dropdown-item" href="#">Another action</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">Something else here</a>
+						</div>
+					</li>
+					 -->
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="page-contents" id="home">
+		<div class="content">
+			<div class="container">
+				<div class="landing section">
+					<div class="profile">
+						<div class="portrait"></div>
+						<meta itemprop="image" content="img/bryce.jpg">
+
+						<div class="portrait-caption">
+
+						</div>
+					</div>
+					<div class="bio">
+						<h1>Welcome!</h1>
+						<p>I'm Bryce, a second-year computer science student at UC Berkeley. After taking a high
+							school CS course and learning the basics of cybersecurity through CyberPatriot, I discovered
+							my
+							passion for programming. Currently, I'm fascinated by the intersection of technology with
+							other
+							interdisciplinary fields like physics and statistics, and I hope to continue pursuing these
+							interests while at Cal.<br><br>
+							Interested in reaching out? Contact me here: brywong [at] berkeley [dot] edu
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="content" id="projects">
+			<div class="container">
+				<div class="projects section">
+					<h1>Personal Projects</h1>
+					<div class="project-container">
+						<div class="project-img">
+							<img src="img/collision-simulator.png">
+						</div>
+						<div class="project-contents">
+							<h2>Collision Simulator (Java) - <span class="date">Spring 2019</span></h2>
+							<p>For my senior AP CSP project, I programmed a collision simulator in Java that simulates
+								collisions
+								between two projectiles within a confined environment given initial mass, velocity, and
+								position
+								values. The simulator displays projectiles colliding in real-time with their
+								current velocity and position values using JComponents.<br><br>
+								<a href="https://github.com/brywong/collision-simulator" target="_blank">Source Code</a>
+							</p>
+						</div>
+					</div>
+					<div class="project-container-reverse">
+						<div class="project-img">
+							<img src="img/chat-room-anno.png">
+						</div>
+						<div class="project-contents">
+							<h2>Chat Room (C) - <span class="date">Summer 2018</span></h2>
+							<p>In CS 61C, I programmed a chat room system that supported message exchanges between users
+								on
+								separate console displays through the C socket interface. Additionally, the software
+								supported
+								slash-command functionality (\command), allowing users to mute other users and give them
+								nicknames.<br><br>
+								Shoot me an email if you'd like to see the source code.</p>
+						</div>
+					</div>
+					<div class="project-container" style="padding: 20px 0 0 0;">
+						<div class="project-img">
+							<img src="img/trailblazer.png">
+						</div>
+						<div class="project-contents">
+							<h2>Trailblazer (C++) - <span class="date">Summer 2017</span></h2>
+							<p>At a Stanford Summer session, I took CS 106B and created Trailblazer, an application that
+								takes
+								two nodes and finds a path between them. In this project, I implemented 3 pathfinding
+								algorithms
+								(breadth-first, Djikstra's, and A*) with a visual display of each visited node and the
+								final
+								path result.<br><br>
+								Shoot me an email if you'd like to see the source code.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="content" id="work">
+			<div class="container">
+				<div class="work section">
+					<h1>Work Experience</h1>
+					<div class="work-container">
+						<div class="work-contents">
+							<h2>Lam Research - <span class="date">Summer 2020</span></h2>
+							<p>At <a href="https://www.lamresearch.com/" target="_blank">Lam</a>, I designed and
+								documented
+								a flexible macro editor application for Lam semiconductor wafer processing equipment
+								using
+								an
+								<i>Angular CLI</i> and <i>Electron.js</i> framework. Additionally,
+								I completed Lam's one-week Level II ML/AI Scientific Python course (included
+								<i>NumPy</i>,
+								<i>pandas</i>, <i>Matplotlib</i>, <i>scikit-learn</i>, and <i>Yellowbrick</i>).
+							</p>
+						</div>
+						<div class="vl"></div>
+						<div class="work-contents">
+							<h2>Maskil - <span class="date">Summer 2019</span></h2>
+							<p>At <a href="https://www.maskil.church" target="_blank">Maskil</a>, I worked on the
+								<i>Django</i>
+								backend to create a "teams page" for each church organization from a <i>MySQL</i>
+								database.
+								Additionally, I created an admin permissions tool in order to manage specific songsheet
+								creation features among Maskil editors.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="content" id="teaching">
+			<div class="container">
+				<div class="teaching section">
+					<h1>Teaching</h1>
+					<div class="work-container">
+						<div class="work-contents">
+							<p>At Berkeley, I've enjoyed teaching as a mentor for Berkeley's <a
+									href="https://csmentors.berkeley.edu" target="_blank">Computer Science Mentors</a>
+								(CSM)
+								organization and an academic intern (AI) for Berkeley CS courses.<br><br>
+								To access my teaching resources, click <a
+									href="https://www.notion.so/Teaching-Resources-Bryce-Wong-8910cad1ab6e46ba84b4b7ed90a26561"
+									target="_blank">here</a>.
+							</p>
+						</div>
+						<div class="vl"></div>
+						<div class="work-contents">
+							<h2>Teaching History</h2>
+							<ul>
+								<li><span class="date">Fall 2020</span>
+									<ul>
+										<li>CSM Junior Mentor -
+											<a href="https://inst.eecs.berkeley.edu/~ee16a/fa20/" target="_blank">EECS
+												16A</a>
+										</li>
+										<li>Academic Intern - <a href="https://cs61c.org/fa20/" target="_blank">CS
+												61C</a>
+										</li>
+									</ul>
+								</li>
+								<li><span class="date">Spring 2020</span>
+									<ul>
+										<li>Academic Intern - <a href="https://cs61c.org/sp20/" target="_blank">CS
+												61C</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="content" id="contact">
+			<div class="container">
+				<div class="internships section">
+					<div class="internship-content">
+						<h1>Contact</h1>
+						<p>I'm currently looking for computer science internship opportunities for the Summer 2021
+							season. If
+							you're interested, feel free to reach out!<br><br>
+							Email: brywong [at] berkeley [dot] edu</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="footer">
+		<div class="container">
+			<div class="footer-contents">
+				<div class="copyright">Copyright © Bryce Wong 2020</div>
+				<div class="social-media">
+					<a href="https://www.linkedin.com/in/brywong" target="_blank"><i class="fab fa-linkedin"></i></a>
+					<a href="https://www.github.com/brywong" target="_blank"><i class="fab fa-github"></i> </a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"
+		integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/b9b6f00622.js" crossorigin="anonymous"></script>
+	<script src="/js/global.js"></script>
+</body>
+
+</html>

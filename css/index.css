@@ -1,0 +1,179 @@
+div.page-contents>div:nth-of-type(odd) {
+    background-color: white;
+}
+
+div.page-contents>div:nth-of-type(even) {
+    background-color: #f5f5f5;
+}
+
+.content {
+    width: 100%;
+}
+
+.landing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.portrait {
+    background-image: url('../img/bryce.jpg');
+    background-position: center;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    border-radius: 5%;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+}
+
+.bio {
+    padding-left: 50px;
+}
+
+.bio h1 {
+    text-align: left;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.project-container img {
+    max-height: 15em;
+    flex: 0 0 35vw;
+    margin-right: 50px;
+}
+
+.project-container-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.project-container-reverse img {
+    max-height: 15em;
+    flex: 0 0 35vw;
+    margin-left: 50px;
+}
+
+.project-contents {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.project-contents h2 {
+    font-size: 22px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.work-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.work-contents {
+    width: 45%;
+    padding-top: 10px;
+}
+
+.work-contents h2 {
+    font-size: 22px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.vl {
+    border-left: 1px dashed black;
+    width: 1px;
+  }
+
+.date {
+    color: #7FBBFF;
+    font-weight: bold;
+}
+
+.project-contents p {
+    text-align: left !important;
+}
+
+.internships {
+    padding: 0px;
+}
+
+.internship-content {
+    margin: 30px auto;
+    width: 75%;
+    padding: 20px;
+    border: 1px solid #7FBBFF;
+    background-color: aliceblue;
+    border-radius: 10px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+}
+
+.internship-content h1 {
+    font-size: 22px;
+}
+
+@media (max-width: 991px) {
+    .landing {
+        flex-direction: column;
+    }
+
+    .bio {
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+
+    .project-container {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .project-container img {
+        max-height: 18em;
+        margin: 0;
+        margin-bottom: 40px;
+    }
+
+    .project-container-reverse {
+        flex-direction: column;
+    }
+
+    .project-container-reverse img {
+        max-height: 18em;
+        margin: 0;
+        margin-bottom: 40px;
+    }
+
+    .project-img {
+        margin: 0 auto;
+    }
+
+    .project-contents {
+        margin: 0;
+    }
+
+    .work-container {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .work-contents {
+        width: 100%;
+    }
+
+    .internships {
+        width: 100%;
+    }
+}
+

@@ -1,0 +1,107 @@
+/* Global Settings */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding-top: 60px;
+}
+
+a {
+    transition: color 0.5s ease;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 33px;
+    font-family: 'Lato', serif;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+p {
+    font-family: 'Lato', serif;
+    font-size: 17px;
+}
+
+i {
+    color: red;
+    font-weight: bold;
+}
+
+.section {
+    padding: 50px 25px;
+}
+
+@media (max-width: 991px) {
+    .section {
+        padding: 25px 20px;
+    }
+}
+
+/* Navbar Content */
+.navbar {
+    background-color: #134c7a;
+}
+
+.navbar .navbar-brand{
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.navbar .nav-item:not(:last-child) {
+    margin-right: 25px;
+}
+
+.navbar .nav-link {
+    color: white;
+    font-weight: 500;
+    font-size: 1.1em;
+    transition: color 0.5s ease;
+}
+
+.navbar .nav-link:hover {
+    color: #e7e0d0;
+}
+
+.footer {
+    background-color: #134c7a;
+    padding: 20px;
+}
+
+.footer-contents {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.copyright {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin: auto 0;
+}
+
+.fab, .fas {
+    color: white;
+    font-size: 30px;
+    margin-left: 13px;
+}
+
+/* Navbar drop-down code
+   
+.dropdown-toggle::after {
+    transition: transform 0.15s linear; 
+}
+   
+.show.dropdown .dropdown-toggle::after {
+    transform: translateY(3px);
+}
+
+.dropdown-menu {
+    margin-top: 0;
+} */
