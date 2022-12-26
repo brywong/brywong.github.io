@@ -1,10 +1,10 @@
-div.page-contents>div:nth-of-type(odd) {
+/* div.page-contents>div:nth-of-type(odd) {
     background-color: white;
 }
 
 div.page-contents>div:nth-of-type(even) {
     background-color: #f5f5f5;
-}
+} */
 
 .content {
     width: 100%;
@@ -14,15 +14,16 @@ div.page-contents>div:nth-of-type(even) {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-top: 50px;
 }
 
 .portrait {
-    background-image: url('../img/bryce.jpg');
+    background-image: url('../img/bryce.png');
     background-position: center;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     margin: 0 auto;
-    border-radius: 5%;
+    border-radius: 100%;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -80,14 +81,25 @@ div.page-contents>div:nth-of-type(even) {
 }
 
 .work-contents {
-    width: 45%;
-    padding-top: 10px;
+    padding: 10px;
+}
+
+.teach-contents {
+    padding: 10px;
+    width: 49%;
 }
 
 .work-contents h2 {
-    font-size: 22px;
+    font-size: 23px;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
+}
+
+.teach-contents h2 {
+    font-size: 23px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    text-align: center;
 }
 
 .skill-text {
@@ -96,7 +108,7 @@ div.page-contents>div:nth-of-type(even) {
 }
 
 .vl {
-    border-left: 2px solid #134c7a;
+    border-left: 2px solid #000000;
     width: 1px;
   }
 
@@ -115,7 +127,7 @@ div.page-contents>div:nth-of-type(even) {
 
 .internship-content {
     margin: 30px auto;
-    width: 75%;
+    width: 65%;
     padding: 20px;
     border: 1px solid #7FBBFF;
     background-color: aliceblue;
@@ -177,8 +189,17 @@ div.page-contents>div:nth-of-type(even) {
         width: 100%;
     }
 
+    .teach-contents {
+        width: 100%;
+    }
+
     .internships {
         width: 100%;
     }
 }
 
+@media (max-width: 750px) {
+    .container {
+        padding: 0;
+    }
+}
