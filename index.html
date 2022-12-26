@@ -26,13 +26,16 @@
 						<a class="nav-link" href="#home">Home</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#work">Work</a>
+						<a class="nav-link" href="#research">Research</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#projects">Projects</a>
+						<a class="nav-link" href="#work">Industry</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#teaching">Teaching</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#academics">Academics</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#contact">Contact</a>
@@ -62,7 +65,7 @@
 				<div class="landing section">
 					<div class="profile">
 						<div class="portrait"></div>
-						<meta itemprop="image" content="img/bryce.jpg">
+						<meta itemprop="image" content="img/bryce.png">
 
 						<div class="portrait-caption">
 
@@ -70,13 +73,83 @@
 					</div>
 					<div class="bio">
 						<h1>Welcome!</h1>
-						<p>I'm Bryce, a third-year computer science student at UC Berkeley. After taking a high
-							school CS course and learning the basics of cybersecurity through <a
-								href="https://www.uscyberpatriot.org/" target="_blank">CyberPatriot</a>, I discovered
-							my passion for programming. Currently, I'm fascinated by the intersection of technology with
-							other interdisciplinary fields like physics and statistics, and I hope to continue pursuing
-							these interests at Cal.<br><br>
-							Interested in reaching out? Contact me here: brywong@berkeley.edu
+						<p>I'm Bryce, a senior at UC Berkeley double-majoring in Computer Science and Data Science with a domain emphasis in Economics.
+							Currently, my main interests lie in computer and network security, specifically in transport layer protocols and decentralized systems.
+							I also work on full-stack development, though my recent projects focus on frontend engineering. In my free time, I enjoy reading webcomics,
+							watching basketball and competing on Berkeley's collegiate <a href="https://osu.ppy.sh/" target="_blank">osu!</a> team (<a href="https://youtu.be/BM8HmpIddHw?t=1684" target="_blank">VOD</a>).<br><br>
+
+							Interested in reaching out? Contact me here: <a href="mailto:brywong@berkeley.edu">brywong@berkeley.edu</a><br><br>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="content" id="research">
+			<div class="container">
+				<div class="work section">
+					<h1>Research Experience</h1>
+					<hr>
+					<div class="work-contents">
+						<h2><a href="https://colink.app/" target="_blank">CoLink</a> - <span class="date">Feb 2022 - Current</span></h2>
+						<p>
+						Advisor: <i><a href="https://people.eecs.berkeley.edu/~dawnsong/" target="_blank">Prof. Dawn Song</a> (UC Berkeley EECS)</i><br>
+						Program: <i><a href="https://research.berkeley.edu/urap/" target="_blank">URAP</a> (Undergraduate Research Apprentice Program)</i><br><br>
+						Tasks:
+							<ul>
+								<li>
+									Designing and implementing <a href="https://colink.run/" target="_blank">a React frontend application</a> to interact with CoLink, a secure Rust gRPC backend server that supports decentralized data collaboration
+									<ul>
+										<li>Customized user login with JWT or MetaMask</li>
+										<li>Entry creation within CoLink Datastore</li>
+										<li>Execute decentralized tasks (i.e. federated learning, privacy-preserving inference) within the user framework</li>
+									</ul>
+								</li>
+								<li>Developing a JS-application SDK to provide developers with an easy-to-use API to build their own Javascript CoLink applications</li>
+								<li><b>Skills:</b> React, gRPC, Typescript, Node.js, Rust</li>
+							</ul>
+						</p>
+						
+						<p>
+							Written/Presented Work (via <a href="https://rdi.berkeley.edu/course/berkeley-desys-s22" target="_blank">CS 194-196</a>):
+							<ul>
+								<li><a href="pdf/1-Literature.pdf" target="_blank">Literature Review</a>, <a href="pdf/2-Proposal.pdf" target="_blank">Project Proposal</a>, 
+									<a href="pdf/3-Milestone.pdf" target="_blank">Milestone Report</a>, <a href="pdf/4-Final.pdf" target="_blank">Final Report</a> (PDFs)
+								<li><a href="https://drive.google.com/file/d/16Is7aKi0XexjG-o7BE9sIjPGVXCs0HEt/view?usp=sharing" target="_blank">Final Presentation</a> (Video)</li>
+							</ul>
+						</p>
+					</div>
+
+					<div class="work-contents">
+						<h2><a href="https://ggie.berkeley.edu/" target="_blank">Greater Good in Education (GGIE)</a> - <span class="date">Feb 2021 - Aug 2021</span></h2>
+						<p>
+						Advisor: <i><a href="https://socialwelfare.berkeley.edu/people/valerie-shapiro" target="_blank">Dr. Valerie Shapiro</a> (UC Berkeley School of Social Welfare)</i><br>
+						Program: <i><a href="https://data.berkeley.edu/discovery" target="_blank">Data Science Discovery</a></i><br><br>
+						Tasks:
+							<ul>
+								<li>Main Tasks:
+									<ul>
+										<li>Perfomed geospatial analysis + web-scraping to analyze how Social-Emotional Learning (SEL) resources were utilized by educators</li>
+										<li>Explored the impact GGIE's website had on educators' teaching methodologies in different California counties</li>
+									</ul>
+								</li>
+
+								<li>Secondary Tasks:
+									<ul>
+										<li>Curated Jupyter notebook templates for performing exploratory data analysis (EDA) on cleaned datasets</li>
+										<li>Designed bash scripts to automate cleaning and aggregation of SQL data from GGIE website into formatted flatmaps</li>
+									</ul>
+								</li>
+
+								<li><b>Skills:</b> SciPy (Python), SQL, Beautiful Soup, Bash</li>
+							</ul>
+						</p>
+
+						<p>
+							Presented Work:
+							<ul>
+								<li><a href="https://youtu.be/Px96GBcacJE?t=3" target="_blank">GGIE: Helping Educators Use Research Evidence</a> (Video • Spring 2021 Data Science Discovery Showcase)</li>
+							</ul>
 						</p>
 					</div>
 				</div>
@@ -86,97 +159,39 @@
 		<div class="content" id="work">
 			<div class="container">
 				<div class="work section">
-					<h1>Work Experience</h1>
-					<div class="work-container">
-						<div class="work-contents">
-							<h2>Greater Good in Education - <span class="date">Summer 2021</span></h2>
-							<p>While working as a research apprentice for <a href="https://ggie.berkeley.edu/" target="_blank">GGIE</a>
-								at UC Berkeley under <a href="https://socialwelfare.berkeley.edu/people/valerie-shapiro" target="_blank">Dr. Valerie Shapiro</a>, 
-								I analyzed the use of online GGIE resources by 3000+ California educators using the <span class="skill-text">SciPy</span> ecosystem
-								and webscraping tools like <span class="skill-text">Beautiful Soup</span>. In addition, I created <span class="skill-text">Bash</span> 
-								and <span class="skill-text">Python</span> scripts to automate the cleaning of SQL database files and creation of aggregated data flatmaps.
-							</p>
-						</div>
-						<div class="vl"></div>
-						<div class="work-contents">
-							<h2>Lam Research Corporation - <span class="date">Summer 2020</span></h2>
-							<p>At <a href="https://www.lamresearch.com/" target="_blank">Lam</a>, I designed and
-								documented a flexible macro editor application for semiconductor wafer processing 
-								equipment using an <span class="skill-text">Angular CLI</span> and <span class="skill-text">Electron.js</span> framework. Additionally,
-								I completed Lam's one-week Level II ML/AI Scientific Python course (included
-								<span class="skill-text">NumPy</span>, <span class="skill-text">pandas</span>, <span class="skill-text">Matplotlib</span>, <span class="skill-text">scikit-learn</span>, and
-								<span class="skill-text">Yellowbrick</span>).
-							</p>
-						</div>
-					</div>
+					<h1>Industry Experience</h1>
 					<hr>
-					<div class="work-container">
-						<div class="work-contents">
-							<h2>Project: Website - <span class="date">Fall 2019</span></h2>
-							<p>At <a href="https://projectwebsite.org/" target="_blank">Project: Website</a>, I recruited 
-								non-profit organizations from 25+ countries seeking new websites through email and phone.
-								Additionally, I served as a project manager, facilitating communcation and organizing workflow
-								between website programmers and NPOs to ensure the success of each project.
-							</p>
-						</div>
-						<div class="vl"></div>
-						<div class="work-contents">
-							<h2>Maskil - <span class="date">Summer 2019</span></h2>
-							<p>At <a href="https://www.maskil.church" target="_blank">Maskil</a>, I worked on the
-								<span class="skill-text">Django</span>
-								backend to create a "teams page" for each church organization from a <span class="skill-text">MySQL</span>
-								database. Additionally, I created an admin permissions tool in order to manage specific
-								songsheet creation features among Maskil editors.
-							</p>
-						</div>
+					<div class="work-contents">
+						<h2><a href="https://www.quantcast.com/" target="_blank">Quantcast</a> | Software Engineering Intern - <span class="date">Summer 2022</span></h2>
+						<p>
+							<ul>
+								<li>Developed a distributed tracing tool to visualize requests made by Quantcast's Report Builder application</li>
+								<li>Improved debugging efficiency for oncall tickets and identified bottlenecks within their microservice pipeline</li>
+								<li><b>Skills:</b> OpenTelemetry (Java), Jaeger, Spring Boot, Guice, Jenkins, Docker</li>
+							</ul>
+					</p>
 					</div>
-				</div>
-			</div>
-		</div>
 
-		<div class="content" id="projects">
-			<div class="container">
-				<div class="projects section">
-					<h1>Personal Projects</h1>
-					<div class="project-container">
-						<div class="project-img">
-							<img src="img/collision-simulator.png">
-						</div>
-						<div class="project-contents">
-							<h2>Collision Simulator (Java) - <span class="date">Spring 2019</span></h2>
-							<p>For my senior AP CSP project, I programmed a collision simulator in Java that simulates
-								collisions between two projectiles within a confined environment given initial mass, 
-								velocity, and position values. The simulator displays projectiles colliding in real-time 
-								with their current velocity and position values using JComponents.<br><br>
-								<a href="https://github.com/brywong/collision-simulator" target="_blank">Source Code</a>
-							</p>
-						</div>
+					<div class="work-contents">
+						<h2><a href="https://www.hashmapinc.com/" target="_blank">Hashmap Inc.</a> | Intern - <span class="date">Spring 2022</span></h2>
+						<p>
+							<ul>
+								<li>Developed ML models with SciPy and InterpretML to predict performance of popular stocks (AAPL, GOOGL, etc.) given time series data</li>
+								<li>Explored data labeling/augmentation (i.e. <a href="https://towardsdatascience.com/the-triple-barrier-method-251268419dcd" target="_blank">triple barrier method</a>) and backtesting methods to analyze model performance</li>
+								<li><b>Skills:</b> SciPy (Python), Machine Learning</li>
+							</ul>
+						</p>
 					</div>
-					<div class="project-container-reverse">
-						<div class="project-img">
-							<img src="img/chat-room-anno.png">
-						</div>
-						<div class="project-contents">
-							<h2>Chat Room (C) - <span class="date">Summer 2018</span></h2>
-							<p>In CS 61C, I programmed a chat room system that supported message exchanges between users
-								on separate console displays through the C socket interface. Additionally, the software
-								supported slash-command functionality (\command), allowing users to mute other users and
-								give them nicknames.<br><br>
-								Send me an email if you'd like to see the source code.</p>
-						</div>
-					</div>
-					<div class="project-container" style="padding: 20px 0 0 0;">
-						<div class="project-img">
-							<img src="img/trailblazer.png">
-						</div>
-						<div class="project-contents">
-							<h2>Trailblazer (C++) - <span class="date">Summer 2017</span></h2>
-							<p>At a Stanford Summer session, I took CS 106B and created Trailblazer, an application that
-								takes two nodes and finds a path between them. In this project, I implemented 3 
-								pathfinding algorithms (breadth-first, Djikstra's, and A*) with a visual display of each 
-								visited node and the final path result.<br><br>
-								Send me an email if you'd like to see the source code.</p>
-						</div>
+
+					<div class="work-contents">
+						<h2><a href="https://www.lamresearch.com/" target="_blank">Lam Research Corporation</a> | Software Engineering Intern 1 - <span class="date">Summer 2020</span></h2>
+						<p>
+							<ul>
+								<li>Designed and documented a flexible editor application to create and modify encrypted macro scripts for Lam semiconductor wafer processing equipment</li>
+								<li>Utilized an Angular/Electron.js framework to modernize pre-existing editor and improve overall user experience</li>
+								<li><b>Skills:</b> Angular, Typescript, Node.js, Electron.js</li>
+							</ul>
+						</p>
 					</div>
 				</div>
 			</div>
@@ -186,26 +201,33 @@
 			<div class="container">
 				<div class="teaching section">
 					<h1>Teaching</h1>
-					Fall 2022 Resources (for enrolled students): <a href=https://go.cs61a.org/bryce-resources>https://go.cs61a.org/bryce-resources</a><br><br>
+					<hr>
+					<p>Fall 2022 Resources (for enrolled students): <a href=https://go.cs61a.org/bryce-resources target="_blank">https://go.cs61a.org/bryce-resources</a></p>
+					<br>
 					<div class="work-container">
-						<div class="work-contents">
-							<p>At Berkeley, I've enjoyed teaching as a mentor for Berkeley's <a
+						<div class="teach-contents">
+							<p>At Berkeley, I've enjoyed serving as a EECS TA/Tutor, a volunteer mentor for Berkeley's <a
 									href="https://csmentors.berkeley.edu" target="_blank">Computer Science Mentors</a>
-								(CSM) organization and an academic intern (AI) for Berkeley CS courses.<br><br>
-								To access my teaching resources, click <a
+								(CSM) organization, and an academic intern (AI).<br><br>
+								To access my teaching resources from previous semesters, click <a
 									href="https://tinyurl.com/brywong-resources"
 									target="_blank">here</a>.
 							</p>
 						</div>
 						<div class="vl"></div>
-						<div class="work-contents">
+						<div class="teach-contents">
 							<h2>Teaching History</h2>
 							<ul>
-								<li><span class="date">Fall 2021</span>
+								<li><span class="date">Fall 2022 / Spring 2023</span>
 									<ul>
-										<li><a href="https://cs61a.org/" target="_blank">CS 61A</a> Tutor</li>
+										<li><a href="https://cs61a.org" target="_blank">CS 61A</a> TA</li>
+									</ul>
+								</li>
+								<li><span class="date">Fall 2021 / Spring 2022</span>
+									<ul>
+										<li><a href="https://inst.eecs.berkeley.edu/~cs61a/fa21/" target="_blank">CS 61A</a> Tutor</li>
 										<li>CSM Associate Mentor -
-											<a href="https://inst.eecs.berkeley.edu/~cs61a/sp21/" target="_blank">CS
+											<a href="https://inst.eecs.berkeley.edu/~cs61a/fa21/" target="_blank">CS
 												61A</a>
 										</li>
 									</ul>
@@ -243,14 +265,99 @@
 			</div>
 		</div>
 
+		<div class="content" id="academics">
+			<div class="container">
+				<div class="teaching section">
+					<h1>Academics</h1>
+					<hr>
+					<p>
+						Below is a summary of the college coursework I have completed over the years. What a journey it's been :)<br>
+						(Spring 2023 courses TBA)
+					</p><br>
+					<div class="work-container">
+						<div class="teach-contents">
+							<h2>Technical Courses</h2>
+							<b>Upper Division:</b>
+							<ul>
+								<li>Computer Security (CS 161)</li>
+								<li>Operating Systems (CS 162)</li>
+								<li>Introduction to the Internet (CS 168)</li>
+								<li>Efficient Algorithms and Intractable Problems (CS 170)</li>
+								<li>Introduction to Database Systems (CS 186)</li>
+								<li>Introduction to Artificial Intelligence (CS 188)</li>
+								<li>Introduction to Machine Learning (CS 189)</li>
+								<li>Computer Vision and Computational Photography (CS 194-26)
+									<!-- <ul>
+										<li>Proj. 1: <a href="https://inst.eecs.berkeley.edu/~cs194-26/fa22/upload/files/proj1/cs194-26-adg/" target="_blank">Colorizing the Prokudin-Gorskii Photo Collection</a></li>
+										<li>Proj. 2: <a href="https://inst.eecs.berkeley.edu/~cs194-26/fa22/upload/files/proj2/cs194-26-adg/" target="_blank">Fun with Filters and Frequencies</a></li>
+										<li>Proj. 3: <a href="https://inst.eecs.berkeley.edu/~cs194-26/fa22/upload/files/proj3/cs194-26-adg/" target="_blank">Face Morphing</a></li>
+										<li>Proj. 4: <a href="https://inst.eecs.berkeley.edu/~cs194-26/fa22/upload/files/proj4B/cs194-26-adg/" target="_blank">Auto-Stitching Photo Mosaics</a></li>
+										<li>Proj. 5: <a href="https://inst.eecs.berkeley.edu/~cs194-26/fa22/upload/files/proj5/cs194-26-adg/" target="_blank">Facial Keypoint Detection with Neural Networks</a></li>
+										<li>Final: <a href="https://inst.eecs.berkeley.edu/~cs194-26/fa22/upload/files/projFinalAssigned/cs194-26-adg/" target="_blank">Lightfield Camera and Gradient Domain Fusion</a></li>
+									</ul> -->
+								</li>
+								<li>Special Topics on Decentralized Systems (CS 194-196)</li>
+								<li>Principles & Techniques of Data Science (DATA C100)</li>
+								<li>Probability and Random Processes (EECS 126)</li>
+							</ul>
+
+							<b>Lower Division:</b>
+							<ul>
+								<li>Introduction to Computer Programs (CS 61A)</li>
+								<li>Foundations of Data Science (DATA C8)</li>
+								<li>Data Structures (CS 61B)</li>
+								<li>Machine Structures (CS 61C)</li>
+								<li>Multivariable Calculus (MATH 53)</li>
+								<li>Linear Algebra and Differential Equations (MATH N54)</li>
+								<li>Discrete Mathematics and Probability Theory (CS 70)</li>
+								<li>Designing Information Devices and Systems I (EECS 16A)</li>
+								<li>Designing Information Devices and Systems II (EECS 16B)</li>
+							</ul>
+
+							<b>Stanford High School Summer Session (Summer 2017):</b>
+							<ul>
+								<li>Programming Abstractions (CS 106B)</li>
+								<li>Client-Side Internet Technologies (CS 193C)</li>
+							</ul>
+						</div>
+						<div class="vl"></div>
+						<div class="teach-contents">
+							<h2>Breadth Courses</h2>
+							<b>Economics:</b>
+							<ul>
+								<li>Microeconomics (ECON 100A)</li>
+								<li>Introduction to Economics (ECON 2)</li>
+							</ul>
+							<b>Ethics:</b>
+							<ul>
+								<li>Social Implications of Computer Technology (CS 195)</li>
+								<li>Teaching Techniques for Computer Science (CS 375)</li>
+								<li>Human Contexts and Ethics of Data (DATA C104)</li>
+							</ul>
+							<b>Other Breadths:</b>
+							<ul>
+								<li>Human Biological Variation (INTEGBI 35AC)</li>
+								<li>The Nature of Mind (XPHILOS 3)</li>
+								<li>Introduction to Comparative Politics (XPOLSCI 2)</li>
+								<li>General Psychology (XPSYCH 1)</li>
+								<li>The Legacies of J.S. Bach (MUSIC 128)</li>
+								<li>The Perennial Heroic Struggle (XENGLIS R1A)</li>
+								<li>Writing About Performance (COLWRIT R4B)</li>
+							</ul>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+
 		<div class="content" id="contact">
 			<div class="container">
 				<div class="internships section">
 					<div class="internship-content">
 						<h1>Contact</h1>
-						<p>I'm currently looking for computer science internship opportunities for the Summer 2022
-							season. If you're interested, feel free to reach out!<br><br>
-							Email: brywong@berkeley.edu</p>
+						<p>If you're interested in connecting, feel free to reach out!<br>
+							Email: <a href="mailto:brywong@berkeley.edu">brywong@berkeley.edu</a></p>
 					</div>
 				</div>
 			</div>
@@ -261,7 +368,7 @@
 	<div class="footer">
 		<div class="container">
 			<div class="footer-contents">
-				<div class="copyright">Copyright © Bryce Wong 2021</div>
+				<div class="copyright">Copyright © Bryce Wong 2023</div>
 				<div class="social-media">
 					<a href="https://www.linkedin.com/in/brywong" target="_blank"><i class="fab fa-linkedin"></i></a>
 					<a href="https://www.github.com/brywong" target="_blank"><i class="fab fa-github"></i></a>

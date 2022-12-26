@@ -25,20 +25,21 @@ h1 {
 p {
     font-family: 'Lato', serif;
     font-size: 17px;
+    margin-bottom: 0rem;
 }
 
-i {
+/* i {
     color: red;
     font-weight: bold;
-}
+} */
 
 .section {
-    padding: 50px 25px;
+    padding: 15px 25px;
 }
 
 @media (max-width: 991px) {
     .section {
-        padding: 25px 20px;
+        padding: 15px 20px;
     }
 }
 
