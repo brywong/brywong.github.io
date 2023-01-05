@@ -141,6 +141,14 @@ div.page-contents>div:nth-of-type(even) {
     font-size: 22px;
 }
 
+#home::before, #research::before, #work::before, #teaching::before, #academics::before, #contact::before {
+    content: '';
+    display: block;
+    height:      75px;
+    margin-top: -75px;
+    visibility: hidden;
+  }
+
 @media (max-width: 991px) {
     .landing {
         flex-direction: column;

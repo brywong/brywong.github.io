@@ -25,16 +25,6 @@ $(window).on("load resize", function () {
   }
 });
 
-// 60px offsert for smooth scrolling with sticky navbar
-var divId;
-
-$('.nav-link').click(function () {
-  divId = $(this).attr('href');
-  $('html, body').animate({
-    scrollTop: $(divId).offset().top - 60
-  }, 100);
-});
-
 // Prevent hash urls on scroll
 $(document).ready(function () {
 
